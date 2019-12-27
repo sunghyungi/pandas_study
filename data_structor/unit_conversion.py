@@ -19,4 +19,3 @@ print(df.head(3), '\n')
 print("# kpl 열을 소수점 아래 둘째 자리에서 반올림")
 df['kpl'] = df['kpl'].round(2)
 print(df.head(3))
-
